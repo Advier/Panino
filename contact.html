@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+			File Name:		contact.html
+			Names:			Danny Ken, Advier Ortiz, Hammad Uddin
+			Course:			COP 2822C at Valencia College
+			Professor:		David Stendel
+			Description:	The home page of the website for ... about ....
+			Date:			12/1/2023
+		-->
+
+        <meta charset="utf-8" />
+        <title>Panino Perfetto | Contact</title>
+        <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="/css/reset.css" rel="stylesheet" type="text/css" />
+
+        <!-- Other Link tags -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Milonga&family=Montserrat:wght@500&display=swap"
+            rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+    </head>
+    <body class="contact">
+        <!-- Header -->
+        <!-- Navigation bar located inside the header tag. -->
+        <header class="header">
+            <img class="logo" src="/images/logo.svg" alt="Panino Perfetto Logo" />
+
+            <!-- Navigation -->
+            <!-- Navbar for Panino Perfetto -->
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a class="main-nav-link" href="index.html">Home</a></li>
+                    <li><a class="main-nav-link" href="about.html">About</a></li>
+                    <li><a class="main-nav-link" href="menu.html">Menu</a></li>
+                    <li><a class="main-nav-link" href="reviews.html">Reviews</a></li>
+                    <li><a class="main-nav-link" href="gallery.html">Gallery</a></li>
+                    <li><a class="main-nav-link nav-cta" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <!-- Main section that holds multiple different div sections. -->
+        <main>
+        
+            <!-- Contact Us -->
+            <!-- Contact Form for Panino Perfetto -->
+            <div class="wrapper">
+                <h2 style="color: white; font-size: 60px">Reserve Your Table</h2>
+                <div class="form-area">
+                    <div class="msg-area">
+                        <label for="msg">Message</label>
+                        <textarea id="msg" cols="30" rows="10">
+Pick a time between 5:00pm EST - 11:30pm EST in HH:MM and we will confirm your reservation.</textarea
+                        >
+                    </div>
+                    <div class="details-area">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="name" placeholder="First Name" />
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="name" placeholder="Last Name" />
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Phone Number" />
+                        <label for="phone">Phone Number</label>
+                        <input type="email" id="email" placeholder="Email Address" />
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%">
+                <iframe
+                    width="100%"
+                    height="600"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Orlando,%20Florida+(Panino%20Perfetto)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    ><a href="https://www.maps.ie/population/">Population Estimator map</a></iframe
+                >
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <!-- This is a footer with basic social media information. The social media information is blank because there is no official Facebook, Instagram, or Twitter page. -->
+        <footer class="footer">
+            <div class="footer__addr">
+                <h1 class="footer__logo">
+                    <a href="/index.html"><img src="/images/logo.svg" /></a>
+                </h1>
+                <h2>Address:</h2>
+                <address>
+                    123 Somewhere Lane Orlando, Florida 34744 USA<br />
+                    <a class="footer__btn" href="mailto:advierortiz1@gmail.com"
+                        >Email Panino Perfetto</a
+                    >
+                </address>
+                <h2>Advier Ortiz | Panino Perfetto ©2022.</h2>
+            </div>
+            <ul class="footer__nav">
+                <li class="nav__item">
+                    <h2 class="nav__title">Social Media</h2>
+                    <ul class="nav__ul">
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#">Twitter</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

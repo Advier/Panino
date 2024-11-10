@@ -1,0 +1,17 @@
+/*
+ * File Name:	reset.css
+ * Names:		Danny Ken, Advier Ortiz, Hammad Uddin
+ * Course:		COP 2822C at Valencia College
+ * Professor:	David Stendel 
+ * Description:	Replace this text with a description of the contents of this file.
+ * Date:		12/1/2023
+ */
+
+/* CSS Reset */
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
